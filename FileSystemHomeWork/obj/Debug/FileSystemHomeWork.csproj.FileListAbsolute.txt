@@ -1,0 +1,7 @@
+c:\users\уринбасаровд\source\repos\FileSystemHomeWork\FileSystemHomeWork\bin\Debug\FileSystemHomeWork.exe.config
+c:\users\уринбасаровд\source\repos\FileSystemHomeWork\FileSystemHomeWork\bin\Debug\FileSystemHomeWork.exe
+c:\users\уринбасаровд\source\repos\FileSystemHomeWork\FileSystemHomeWork\bin\Debug\FileSystemHomeWork.pdb
+c:\users\уринбасаровд\source\repos\FileSystemHomeWork\FileSystemHomeWork\obj\Debug\FileSystemHomeWork.csprojAssemblyReference.cache
+c:\users\уринбасаровд\source\repos\FileSystemHomeWork\FileSystemHomeWork\obj\Debug\FileSystemHomeWork.csproj.CoreCompileInputs.cache
+c:\users\уринбасаровд\source\repos\FileSystemHomeWork\FileSystemHomeWork\obj\Debug\FileSystemHomeWork.exe
+c:\users\уринбасаровд\source\repos\FileSystemHomeWork\FileSystemHomeWork\obj\Debug\FileSystemHomeWork.pdb
