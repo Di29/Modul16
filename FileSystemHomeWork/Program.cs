@@ -26,19 +26,34 @@ namespace FileSystemHomeWork
         {
             string directory = Directory.GetCurrentDirectory();
             string filePath = directory + @"\FibonacciNumbers.txt";
-            long fileSize = new FileInfo(filePath).Length;
+            //long fileSize = new FileInfo(filePath).Length;
+            string[] fibonacciNumbers = {"0", "1", "1", "2", "3", "5", "8" };
 
-            using (FileStream fileStream = new FileStream(filePath, FileMode.OpenOrCreate))
+            //using (FileStream fileStream = new FileStream(filePath, FileMode.OpenOrCreate))
+            //{
+            //    if(fileSize == 0)
+            //    {
+            //        using (StreamWriter writer = new StreamWriter(filePath, true, Encoding.Default))
+            //        {
+            //            writer.Wr
+            //        }
+            //    }
+            //    using (StreamReader reader = new StreamReader(filePath))
+            //    {
+            //        reader.Rea
+            //    }
+            //}
+
+            if (!File.Exists(filePath))
             {
-                if(fileSize == 0)
-                {
-                    using (StreamWriter writer = new StreamWriter()
-                }
-                using (StreamReader reader = new StreamReader(filePath))
-                {
-                    reader.Rea
-                }
+                File.WriteAllLines(filePath, fibonacciNumbers, Encoding.Default);
             }
+            else
+            {
+                File.ReadAllLines()
+            }
+            
+            
         }
     }
 }
